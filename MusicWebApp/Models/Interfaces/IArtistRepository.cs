@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace MusicWebApp.Models
+namespace MusicWebApp.Models.Interfaces
 {
     public interface IArtistRepository
     {

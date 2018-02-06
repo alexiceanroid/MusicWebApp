@@ -9,8 +9,10 @@ namespace MusicWebApp.Models
     {
         public int ArtistId { get; set; }
         public string Name { get; set; }
+        public string Biography { get; set; }
+        //public int GenreId { get; set; }
+        public Genre Genre { get; set; }
 
         public List<Track> Tracks { get; set; }
-        public List<Genre> Genres { get; set; }
     }
 }
